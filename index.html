@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watto.composer</title>
+    <link rel="icon" type="image/x-icon" href="src/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container-menu">
+            <nav>
+                <img src="src/images/logo.png" alt="Logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Início</a></li>
+                    <li><a href="#about">Sobre Mim</a></li>
+                    <li><a href="#portfolio">Projetos</a></li>
+                    <li><a href="#services">Artes</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <img class="fas" onclick="closemenu()" src="src/icons/close.png" alt="close">
+                </ul>
+                <img class="fas" onclick="openmenu()" src="src/icons/menu.png" alt="menu">
+            </nav>
+        </div>
+        <div class="container">
+            <div class="header-text">
+                <p><a href="#about">Engenheiro de Computação</a></p>
+                <p><a href="#portfolio">Desenvolvedor</a></p>
+                <p><a href="#services">Artista</a></p>
+                <h1>Oi! Eu sou <span>Wagner</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- sobre -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="src/images/user.jpg" alt="Foto de Perfil">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Sobre Mim</h1>
+                    <p>Sou uma pessoa apaixonada pela arte e tecnologia. Muito criativo, sou persistente e paciente na busca por soluções inovadoras. Meu coração artista me levou a explorar áreas como a programação de interfaces, desenvolvimento de softwares e bots. Além disso, minha paixão por música, desenho e edição de vídeo denotam minha habilidade criativa que me inspira a ser cada vez melhor.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Habilidades')">Habilidades</p>
+                        <p class="tab-links" onclick="opentab('Experiências')">Experiências</p>
+                        <p class="tab-links" onclick="opentab('Educação')">Formação</p>
+                        <p class="tab-links" onclick="opentab('Comunicação')">Comunicação</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Habilidades">
+                        <ul>
+                            <li><span>HTML</span><br><div>
+                                <div class="skill-bar"><div class="skill-per" per="70%" style="max-width: 70%;"></div></div>
+                            </div></li>
+                            <li><span>CSS</span><br><div>
+                                <div class="skill-bar"><div class="skill-per" per="50%" style="max-width: 50%;"></div></div>
+                            </div></li>
+                            <li><span>Javascript</span><br><div>
+                                <div class="skill-bar"><div class="skill-per" per="80%" style="max-width: 80%;"></div></div>
+                            </div></li>
+                            <li><span>node.js</span><br><div>
+                                <div class="skill-bar"><div class="skill-per" per="90%" style="max-width: 90%;"></div></div>
+                            </div></li>
+                            <li><span>JAVA</span><br><div>
+                                <div class="skill-bar"><div class="skill-per" per="75%" style="max-width: 75%;"></div></div>
+                            </div></li>
+                            <li><span>Python</span><br><div>
+                                <div class="skill-bar"><div class="skill-per" per="45%" style="max-width: 45%;"></div></div>
+                            </div></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experiências">
+                        <ul>
+                            <li><span>Desenvolvimento Desktop</span><br>Experiência com projetos de <strong>interface gráfica</strong> para desktop com java.</li>
+                            <li><span>Desenvolvimento Backend</span><br>Experiência com Desenvolvimento e manutenção de <strong>bots</strong> para discord.</li>
+                            <li><span>Manutenção de Computadores</span><br>Curso e experiência prática com <strong>assistência técnica</strong> de computadores e notebooks.</li>
+                            <li><span>Modding</span><br>Familiar com conceitos de modding de jogos na linguagem lua.</li>
+                            <li><span>Ferramentas Office</span><br>Domínioa das ferramentas Excel, Word, Powerpoint, com estudo dirigido a <strong>ciência de dados</strong>.</li>
+                            <li><span>Liderança</span><br><strong>Presidente da microempresa Led'school SAE no projeto Jr Achievement</strong></li>
+                            <li><span>Audiovisual</span><br>Experiência com <strong>edição de vídeo</strong> e produção de conteúdo de games.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Educação">
+                        <ul>
+                            <li><em>AGO 2014</em><span>Ensino Superior</span><br>Curso de <strong>Engenharia de Computação</strong> na Universidade Federal de Santa Maria</li>
+                            <li><em>JUN 2022</em><span>Método MW Informática</span><br>Curso de Manutenção de Computadores e Assistência Técnica</li>
+                            <li><em>FEV 2013</em><span>Curso de Intercâmbio</span><br>Curso de Inglês Avançado em Salt Lake City, Utah nos Estados Unidos</li>
+                            <li><em>SET 2012</em><span>Interact Club</span><br>Responsável pelo Departamento de Comunicação, fotografia e produção de mídia, videos e slideshows dos projetos realizados no período.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Comunicação">
+                        <ul>
+                            <li><span>Inglês</span><br><div>
+                                <div class="skill-bar"><div class="skill-per" per="93%" style="max-width: 93%;"></div></div>
+                            </div></li>
+                            <li><span>Português</span><br><div>
+                                <div class="skill-bar"><div class="skill-per" per="97%" style="max-width: 97%;"></div></div>
+                            </div></li>
+                            <li><span>Espanhol</span><br><div>
+                                <div class="skill-bar"><div class="skill-per" per="35%" style="max-width: 35%;"></div></div>
+                            </div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- develop -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Desenvolvedor</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="src/images/work-1.png" alt="Imagem de projeto">
+                    <div class="layer">
+                        <h3>BOTete</h3>
+                        <p>BOT completo para discord em <strong>node.js</strong></p>
+                        <a href="https://github.com/Treorai/BOTete" target="_blank"><img src="src/icons/external-link.png" alt="Link Image"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="src/images/work-2.png" alt="Imagem de projeto">
+                    <div class="layer">
+                        <h3>WEBiblioteca</h3>
+                        <p>Aplicação para desktop em <strong>java</strong></p>
+                        <a href="https://github.com/Treorai/Webiblioteca" target="_blank"><img src="src/icons/external-link.png" alt="Link Image"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="src/images/work-3.png" alt="Imagem de projeto">
+                    <div class="layer">
+                        <h3>Brawlib</h3>
+                        <p>Aplicação web para o jogo Brawlhalla</p>
+                        <a href="https://github.com/Treorai/BrawLib" target="_blank"><img src="src/icons/external-link.png" alt="Link Image"></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Treorai?tab=repositories" target="_blank" class="btn">Ver mais</a>
+        </div>
+    </div>
+    <!-- artes -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Artista</h1>
+            <div class="services-list">
+                <div class="art" id="image-container1">
+                    <img id="art-image1" src="src/images/art-1.png" alt="Imagem de arte">
+                    <div class="layer">
+                        <h2>Desenho</h2>
+                        <p>Tenho uma paixão enorme por desenho digital. Acredito ser uma das melhores formas de expressar a criatividade! Gosto muito de usar a arte dentro dos meus projetos, e a capacitação pra fazer meus próprios designs me permitem explorar o máximo na criação.</p>
+                        
+                    </div>
+                </div>
+                <div class="art" id="image-container2">
+                    <img id="art-image2" src="src/images/art-2.png" alt="Imagem de arte">
+                    <div class="layer">
+                        <h2>Música</h2>
+                        <p>A música faz parte da minha vida desde meus primeiros dias no mundo. Toco piano e violoncelo, com os quais já me apresentei diversas vezes; sozinho, com grupos musicais e diversas orquestras. Um dia vou aprender trompete, guaita e muitos outros. Meu maior sonho é ser cantor.</p>
+                        
+                    </div>
+                </div>
+                <div class="art" id="image-container3">
+                    <img id="art-image3" src="src/images/art-3.png" alt="Imagem de arte">
+                    <div class="layer"><h2>Fotografia</h2>
+                        <p>Rodeado de belíssimas paisagens, fico encantado com os pequenos detalhes da vida ao nosso redor. Gosto muito de tirar fotos, só não gosto de aparecer nelas!</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.instagram.com/treoraicomposer/" target="_blank" class="btn">Ver mais</a>
+        </div>
+    </div>
+    <!-- contato -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contato</h1>
+                    <p class="cinfo"><a href="mailto:contato.watto@gmail.com"><img src="src/icons/social/email-48.png" alt="email icon"></a> contato.watto@gmail.com</p>
+                    <p class="cinfo"><img src="src/icons/social/whatsapp-48.png" alt="phone icon"> +55 51 997944264</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Treorai" target="_blank"><img src="src/icons/social/github-48.png" alt="github icon"></a>
+                        <a href="https://www.linkedin.com/in/wagnerchitto/" target="_blank"><img src="src/icons/social/linkedin-48.png" alt="linkedin icon"></a>
+                        <a href="https://www.instagram.com/treoraicomposer/" target="_blank"><img src="src/icons/social/instagram-48.png" alt="instagram icon"></a>
+                        <a href="https://discord.com/users/247043627501486084" target="_blank"><img src="src/icons/social/discord-48.png" alt="discord icon"></a>
+                    </div>
+                    <a href="src/cv-watto.pdf" download class="btn btn2">Download Currículo</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Seu nome" required>
+                        <input type="email" name="email" placeholder="Seu email" required>
+                        <textarea type="Message" name="Message" rows="6" placeholder="Sua mensagem" required></textarea>
+                        <button type="submit" class="btn btn2">Enviar</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © watto. 2023</p>
+        </div>
+    </div>
+    <!-- scripts -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzTyUxXx7YmXY4yyzFxFCm2ys9_m_LeTcTuQw-vhbDWhcXF9HvWBB_0FGfVBCfDBYk/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Mensagem enviada com sucesso!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script>
+const container1 = document.getElementById('image-container1');
+const image1 = document.getElementById('art-image1');
+const container2 = document.getElementById('image-container2');
+const image2 = document.getElementById('art-image2');
+const container3 = document.getElementById('image-container3');
+const image3 = document.getElementById('art-image3');
+let isHovered = false;
+
+container1.addEventListener('mouseenter', () => {
+  isHovered = true;
+  image1.src = 'src/images/art-1b.png';
+});
+
+container1.addEventListener('mouseleave', () => {
+  isHovered = false;
+  image1.src = 'src/images/art-1.png';
+});
+
+image1.addEventListener('load', () => {
+  if (isHovered) {
+    image1.src = 'src/images/art-1b.png';
+  }
+});
+
+container2.addEventListener('mouseenter', () => {
+  isHovered = true;
+  image2.src = 'src/images/art-2b.png';
+});
+
+container2.addEventListener('mouseleave', () => {
+  isHovered = false;
+  image2.src = 'src/images/art-2.png';
+});
+
+image2.addEventListener('load', () => {
+  if (isHovered) {
+    image2.src = 'src/images/art-2b.png';
+  }
+});
+
+container3.addEventListener('mouseenter', () => {
+  isHovered = true;
+  image3.src = 'src/images/art-3b.png';
+});
+
+container3.addEventListener('mouseleave', () => {
+  isHovered = false;
+  image3.src = 'src/images/art-3.png';
+});
+
+image3.addEventListener('load', () => {
+  if (isHovered) {
+    image3.src = 'src/images/art-3b.png';
+  }
+});
+
+    </script>
+</body>
+</html>
