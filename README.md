@@ -1,6 +1,6 @@
 # Portfolio Webpage
 
-![Screenshot do projeto](https://mdswanson.com/static/chops-ux-step-4.png "Screenshot do projeto").
+![Screenshot do projeto](https://i.imgur.com/X90tL8Q.png "Screenshot do projeto").
 
 
 ### Descrição
