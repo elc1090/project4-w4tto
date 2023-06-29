@@ -13,7 +13,7 @@ Tendo em vista que meu interesse na disciplina desde o início foi para conhecer
 
 ### Deploy
 
-Preencha aqui a URL para acesso ao projeto publicado
+https://elc1090.github.io/project4-w4tto/
 
 ### Testes
 
