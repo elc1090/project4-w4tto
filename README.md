@@ -55,11 +55,15 @@ VS Code, Google Sheets
 - 29-06-2023
     - Atualização das informações e links
     - Navegação
+    
 - 30-06-2023
     - Diminuído o tamanho da imagem de background
     - Criação dos scripts em arquivos dedicados
     - Mudança na fonte
 
+### Referências para usar na Apresentação
+
+https://treorai.github.io/ELC1090-2023A/T01%20-%20Site%20Est%C3%A1tico/
 
 ---
 Projeto entregue para a disciplina de [Desenvolvimento de Software para a Web](http://github.com/andreainfufsm/elc1090-2023a) em 2023a
