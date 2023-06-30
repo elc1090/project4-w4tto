@@ -58,6 +58,7 @@ VS Code, Google Sheets
 - 30-06-2023
     - Diminuído o tamanho da imagem de background
     - Criação dos scripts em arquivos dedicados
+    - Mudança na fonte
 
 
 ---
