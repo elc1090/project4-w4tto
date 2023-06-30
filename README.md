@@ -55,6 +55,8 @@ VS Code, Google Sheets
 - 29-06-2023
     - Atualização das informações e links
     - Navegação
+- 30-06-2023
+    - Diminuído o tamanho da imagem de background
 
 
 ---
